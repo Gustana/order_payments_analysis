@@ -5,8 +5,8 @@ from data import data
 show_pages(
     [
         Page("main.py", "Home"),
-        Page("eda.py", "EDA"),
-        Page('analysis_res.py', 'Analysis Result')
+        Page("dashboard/page/eda.py", "EDA"),
+        Page('dashboard/page/analysis_res.py', 'Analysis Result')
     ]
 )
 
