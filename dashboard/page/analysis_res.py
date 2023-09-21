@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
 
-df = data.getDataFrame()
+df = data.getDataFrame(dataset_path='data/order_payments_dataset.csv')
 
 st.title('Analysis Result')
 st.divider()

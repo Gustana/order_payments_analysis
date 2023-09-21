@@ -1,6 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv('order_payments_dataset.csv')
-
-def getDataFrame() -> pd.DataFrame:
+def getDataFrame(dataset_path:str) -> pd.DataFrame:
+    df = pd.read_csv(dataset_path)
     return df.loc[:, df.columns != 'order_id']

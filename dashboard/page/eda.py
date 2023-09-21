@@ -8,7 +8,7 @@ st.divider()
 
 st.subheader("Data Distribution")
 
-df = data.getDataFrame()
+df = data.getDataFrame(dataset_path='data/order_payments_dataset.csv')
 
 st.write(df.describe(include='all'))
 
