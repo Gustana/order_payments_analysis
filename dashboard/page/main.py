@@ -7,7 +7,7 @@ import sys
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Add the parent directory (data) to the Python path
-parent_dir = os.path.join(current_dir, '../')
+parent_dir = os.path.join(current_dir, '..')
 sys.path.append(parent_dir)
 
 from data import data
